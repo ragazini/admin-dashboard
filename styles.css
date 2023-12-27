@@ -1,0 +1,215 @@
+@font-face {
+  font-family: "Rubik Doodle Shadow";
+  src: url(./RubikDoodleShadow-Regular.ttf) format("opentype");
+}
+
+.dash {
+  font-family: Rubik Doodle Shadow;
+  color: white;
+}
+
+* {
+  /* color: white; */
+}
+
+.container {
+  display: grid;
+  grid-template-rows: 0.7fr 2.5fr 2.5fr;
+  grid-template-columns: 1fr 3fr 1fr;
+}
+
+.sidebar {
+  background-color: #1c93e2;
+  grid-area: 1 / 1 / 4 / 2;
+  display: grid;
+  grid-template-rows: 0.2fr 1fr 0.6fr 1fr 1fr;
+  color: white;
+  font-weight: bold;
+}
+
+.logo {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  margin: 10px;
+}
+
+.first-menu {
+  display: flex;
+  flex-direction: column;
+  gap: 22px;
+}
+
+li.list-li {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  margin-left: -22px;
+}
+
+/* .communities {
+  font-size: 12px;
+} */
+
+.second-menu {
+  display: flex;
+  flex-direction: column;
+  gap: 22px;
+}
+
+.main-header {
+  /* background-color: blue; */
+  grid-area: 1 / 2 / 2 / 4;
+  display: grid;
+  grid-template-rows: 1fr 3fr;
+  grid-template-columns: 2fr 1fr;
+}
+
+.user {
+  display: flex;
+  gap: 22px;
+}
+
+.search-bar {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+.searchbar {
+  width: 40vw;
+  max-height: 20px;
+  border-radius: 20px;
+  padding: 5px 10px;
+  background-color: rgb(238, 234, 234);
+  border: none;
+}
+
+.user-info {
+  display: flex;
+  gap: 25px;
+  padding: 10px 10px;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.buttons button {
+  background-color: #1c93e2;
+  border: none;
+  border-radius: 20px;
+  font-size: 15px;
+  color: white;
+  padding: 5px 10px;
+  width: 70px;
+}
+.main-content {
+  background-color: rgb(238, 234, 234);
+  grid-area: 2 / 2 / 4 / 3;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+
+.main-card {
+  background-color: rgb(238, 234, 234);
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 15px;
+}
+
+.card {
+  background-color: white;
+
+  height: 200px;
+  /* width: 400px; */
+  display: flex;
+  flex-direction: column;
+  border: 1px solid black;
+  border-left: 7px solid rgb(225, 177, 19);
+  border-radius: 8px;
+  padding: 2px;
+}
+
+.right-bar {
+  background-color: rgb(238, 234, 234);
+  grid-area: 2 / 3 / 4 / 4;
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+  gap: 30px;
+}
+
+.first-menu,
+.second-menu li {
+  list-style-type: none;
+}
+
+.top-right-bar-main {
+  background-color: white;
+  padding: 10px;
+}
+
+.top-right-bar {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+
+  /* justify-content: center; */
+  /* align-items: center; */
+  background-color: rgb(238, 234, 234);
+}
+
+.user-details {
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+  padding: 10px;
+  /* border: 1px solid black; */
+  box-sizing: border-box;
+}
+
+.user-name {
+  display: flex;
+
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  min-width: 100px;
+
+  /* margin: 20px; */
+}
+
+.user-name h4,
+.user-name p {
+  margin: 0;
+}
+
+/* .test {
+  display: flex;
+  flex-direction: column;
+  background-color: azure;
+  justify-content: center;
+} */
+
+.bottom-right-bar {
+  padding: 10px;
+  margin: 10px;
+  padding-left: 10px;
+}
+
+.bottom-right-bar-container {
+  background-color: white;
+  padding: 20px;
+}
+
+.user-details {
+  /* background-color: red; */
+}
